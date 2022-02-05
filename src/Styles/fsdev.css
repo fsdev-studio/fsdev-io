@@ -1,0 +1,146 @@
+html {
+  background-color: rgb(27, 27, 25);
+}
+
+h2 {
+  color: #61dafb;
+}
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+  padding: 0px 100px 0px 100px;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #01183d;
+  color: white;
+  height: 50px;
+  padding-top: 20px;
+}
+
+nav span {
+  margin: 10px;
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 7px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav span:active {
+  color: green;
+}
+
+.navLeft {
+  margin: 10px;
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 7px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.navRight {
+  margin: 10px;
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 7px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+nav a {
+  margin: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.openNav {
+  display: none;
+}
+.App-header {
+  background-color: #282c34;
+  width: 100vw;
+  margin-top: 60px;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-radius: 0px 100px 0px 100px;
+}
+
+.contact {
+  background-color: #282c34;
+  width: 100vw;
+  margin-top: 60px;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-radius: 200px 0px 200px 0px;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  .openNav {
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    display: block;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  span {
+    color: white;
+  }
+  .navSpan {
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 7px;
+    font-weight: 700;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+.shadow-1 {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.shadow-2 {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Firefox 3.5 - 3.6 */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
