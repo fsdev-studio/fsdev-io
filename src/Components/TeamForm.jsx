@@ -70,12 +70,7 @@ export default function TeamForm({ showForm, setShowForm }) {
   return done ? (
     <>
       <h1>Thank you, we will contact you soon</h1>
-      <h1>Thank you, we will contact you soon</h1>
-      <h1>Thank you, we will contact you soon</h1>
-      <h1>Thank you, we will contact you soon</h1>
-      <h1>Thank you, we will contact you soon</h1>
-      <h1>Thank you, we will contact you soon</h1>
-      <h1>Thank you, we will contact you soon</h1>
+
     </>
   ) : (
 
@@ -89,10 +84,10 @@ export default function TeamForm({ showForm, setShowForm }) {
         width: '100%'
       }}>
 
-        <input
+        {showForm !== 'not-yet-sure' ? <input
           style={styles.inputText}
           type="text" placeholder="Project Name" onChange={(e) => setProjectName(e.target.value)} />
-
+          : null}
 
 
         {

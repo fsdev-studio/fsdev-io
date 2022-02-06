@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import bground4 from '../Images/bground4.jpg';
 import Button from './Button';
 import '../Styles/App.css';
 export default function Events() {
@@ -40,16 +39,17 @@ export default function Events() {
     return done ? (
         <section>
             <h2>Subscribed</h2>
-            <Button
-                baseColor='blue'
-                name='Back'
-                handleClick={() => setDone(false)} />
+            <p>Thank you for subscribing, keep an eye out on emails form us,
+                you may want to whitelist our email address events@fsdev.co.za so that
+                you never miss an invite from us.
+            </p>
+
         </section>
     ) : (
         <section>
             <h2>Upcoming Events</h2>
             <p>From time to  time we host events either online or in small groups
-                if you would like to jin our miling list and be notified of upcoming events
+                if you would like to join our mailing list and be notified of upcoming events
                 then please subscribe below
             </p>
             <section

@@ -8,7 +8,9 @@ export default function Button({ baseColor, name, handleClick }) {
                 backgroundColor: baseColor,
                 borderColor: "transparent",
                 fontWeight: 'bold',
-                cursor: 'pointer'
+                cursor: 'pointer',
+                borderBottomLeftRadius: 40,
+                borderTopRightRadius: 40,
             }}
             onClick={handleClick}
         >{name}</button>

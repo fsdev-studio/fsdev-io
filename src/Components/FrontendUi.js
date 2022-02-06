@@ -8,9 +8,16 @@ export default function FrontendUi() {
                 We've built a range of open source User Interface components for the web (reactJS)
                 as well as mobile (React Native) that makes it easy for you to add functionality to your projects.
 
-                You can find out more at the official doc' here :
+
             </p>
-            <a href='https://ui.fsdev.studio'>Documentation</a>
+            <p>
+                We continously maintain and update these pakages and also add new ones.</p>
+
+            <p>
+
+                You can find out more at the official documentaion website here :
+            </p>
+            <a href='https://ui.fsdev.studio'>https://ui.fsdev.studio</a>
         </section >
     )
 }

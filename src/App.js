@@ -87,7 +87,7 @@ function App() {
           :
           <TeamForm
             setShowForm={(val) => setShowForm(val)}
-            showForm={(val) => showForm(val)}
+            showForm={showForm}
           />
         }
       </div>
